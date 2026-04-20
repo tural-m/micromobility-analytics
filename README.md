@@ -110,24 +110,10 @@ micromobility-revenue-intelligence/
 │   └── 03_gold_table.sql
 │
 ├── screenshots/
-│   ├── dashboard_main.png
-│   └── insights_page.png
+│   ├── MicromobilityRevenueIntelligence.png
+│   └── Insights&Recommendations.png
 │
 └── README.md
-```
-
----
-
-## How to Reproduce
-
-1. Download dataset from [City of Austin Open Data Portal](https://data.austintexas.gov/Transportation-and-Mobility/Shared-Micromobility-Vehicle-Trips/7d8e-dm7r)
-2. Load raw CSV into Snowflake Bronze layer via SnowSQL CLI
-3. Run `01_bronze_reference_tables.sql` to create reference tables
-4. Run `02_silver_transformation.sql` to create `SILVER.TRIPS_CLEAN`
-5. Run `03_gold_table.sql` to create `GOLD.TRIPS_GOLD`
-6. Export Gold table as CSV
-7. Connect to Tableau Public and rebuild visualizations
-
 ---
 
 ## Author
