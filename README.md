@@ -94,8 +94,8 @@ estimated_revenue = unlock_fee + (trip_duration_sec / 60.0 × per_minute_rate)
 
 **[View Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/tural.m.r/viz/MicromobilityDataAnalysis/MicromobilityRevenueIntelligence)**
 
-![Dashboard](screenshots/Micromobility_Revenue_Intelligence.png)
-![Insights](screenshots/Insights_&_Recommendations.png)
+![Dashboard](screenshots/Micromobility Revenue Intelligence.png)
+![Insights](screenshots/Insights & Recommendations.jpg)
 
 ---
 
