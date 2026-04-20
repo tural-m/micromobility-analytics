@@ -71,7 +71,7 @@ estimated_revenue = unlock_fee + (trip_duration_sec / 60.0 × per_minute_rate)
 
 | Filter | Rule | Reason |
 |--------|------|--------|
-| Vehicle type | Scooter only | Lime operates electric scooters |
+| Vehicle type | Scooter only | Project scope focused on scooter operations |
 | Year scope | 2021–2022 only | COVID distortion in 2020, data errors prior |
 | Min duration | ≥ 60 seconds | Sub-60s trips are unlocks not rides |
 | Max duration | ≤ 7,200 seconds | Over 2hrs indicates GPS or system failure |
@@ -84,7 +84,7 @@ estimated_revenue = unlock_fee + (trip_duration_sec / 60.0 × per_minute_rate)
 
 **Limitations**:
 - Dataset is Austin TX — used as an operational proxy for micromobility analysis
-- Revenue figures are estimates based on publicly available Lime pricing, not actual transaction data
+- Revenue figures are estimates based on publicly available micromobility pricing rates, not actual transaction data
 - 2022 data covers January through April only due to dataset availability
 - Fleet utilization reframed to trip concentration due to absence of fleet inventory data
 
